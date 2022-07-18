@@ -20,7 +20,11 @@ dependencies:
   # Nhost packages
   nhost_sdk: ^3.0.2
   nhost_flutter_auth: ^2.0.2
-  nhost_graphql_adapter: ^2.0.2
+#   nhost_graphql_adapter: ^2.0.2
+  nhost_graphql_adapter:
+    git:
+      url: https://github.com/AyitiApp/nhost-dart.git
+      path: packages/nhost_graphql_adapter
 dev_dependencies:
   flutter_test:
     sdk: flutter
