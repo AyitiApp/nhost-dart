@@ -15,7 +15,11 @@ dependencies:
 
   # Nhost packages
   nhost_sdk: ^3.0.2
-  nhost_gql_links: ^2.0.2
+#   nhost_gql_links: ^2.0.2
+  nhost_gql_links:
+    git:
+      url: https://github.com/AyitiApp/nhost-dart.git
+      path: packages/nhost_gql_links
 dev_dependencies:
   async: ^2.5.0
   lints: ^1.0.0
