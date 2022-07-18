@@ -9,7 +9,7 @@ environment:
   sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
-  gql_exec: ^0.3.0
+  gql_exec: ^0.4.0
   gql_http_link: ^0.4.0
   gql_link: ^0.4.0
 #   gql_websocket_link: ^0.3.1
